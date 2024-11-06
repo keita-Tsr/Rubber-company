@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+ /* 共通部分 */
+html {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.en {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: block;
+
+}
+
+.border {
+  margin-top: 8px;
+  border-top: 5px #000 solid;
+  width: 60px;
+}
+
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+header .co-name {
+  font-family: monospace;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* footer */
+footer {
+  color: #fff;
+}
+
+footer li a {
+  color: #fff;
+}
+
+.foot {
+  background-color: #00689c;
+  margin: 150px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-right {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.footer-right ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-right ul li {
+  font-size: 0.85rem;
+  color: #fff;
+  padding-right: 15px;
+}
+
+.copyight {
+  background-color: #005885;
+  color: #000;
+  margin: 0;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.copyight p {
+  margin: 0;
+}
+
+
+
+/* ここまで共通 */
+
+
+
+
+
+/* main */
+main {
+  margin: 0  15%;
+  padding: 0;  
+}
+
+#mainvisual img {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin: 20px 0 0 0;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+.tag {
+  padding-right: 10px;
+}
+
+
+.section-text {
+  padding: 25px 0;
+}
+
+.rinen-title {
+  color: #1e2c5c;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.section-right img {
+  width: 450px;
+  height: auto;
+}
+
+
+/* (.section-right)の中のやつ */
+.empty-space {
+  width: 500px;
+  height: 300px;
+}
+
+.section-wrapper {
+  position: relative; /* 相対配置を指定 */
+  background-color: #ddf0fb; /* 透明度を0.5に設定 */
+  margin-left: -15%; /* 左のマージンを取り除く */
+  margin-right: -15%; /* 右のマージンを取り除く */
+  padding-left: 15%; /* 左側の余白を設定 */
+  padding-right: 15%; /* 右側の余白を設定 */
+}
+
+
+.flex {
+  position: relative; /* 相対配置を指定 */
+  background-color: #00689c; /* 透明度を0.5に設定 */
+  margin-left: -15%; /* 左のマージンを取り除く */
+  margin-right: -15%; /* 右のマージンを取り除く */
+  padding-left: 15%; /* 左側の余白を設定 */
+  padding-right: 15%; /* 右側の余白を設定 */
+}
+
+.recruit-flex {
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  margin: 0;
+}
+
+.flex ul li img {
+  width: 230px;
+  height: auto;
+}
+
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  padding-bottom: 50px;
+  color: #005885;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+th, td {
+  border-top: .2px solid black;
+  border-bottom: .2px solid black;
+  border-left: .2px solid black;
+  padding: 8px;
+}
+
+th {
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+
+
+/* 地図 */
+#map {
+  padding-top: 200px;
+}
+
+
+
+
+/* 組織図 */
+.info {
+  text-align: center;
+  padding-bottom: 50px;
+  color: #005885;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-top: 70px;
+}
+
+.menu {
+  border-top: .5px #000 solid;
+  display: flex;
+  justify-content: space-around;
+}
+
+.soshikizu img {
+  text-align: center;
+  width: 60%;
+  height: 60%;
+  padding-bottom: 70px;
+}
+
+
+
+/* link */
+.link {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.link-contents {
+  margin-top: 30px;
+}
+
+
+
+/* news */
+.news-list {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.article a p {
+  color: #00689c;
+}
+
+
+.article-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+
+/* news.html */
+
+.news-html {
+  text-align: center;
+}
+
+.news-html img {
+  padding: 50px 0;
+}
+
+
+
+/* contact.html */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-text {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width:768px) {
+  /* header */
+  header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  header .co-name {
+    width: 100%;
+  }
+  .header-list {
+    display: none;
+  }
+
+
+  /* img */
+  .section-left .more-btn {
+    display: none;
+  }
+  .section-right img {
+    width: 60vw;
+  }
+  .top img {
+    width: 30vw;
+  }
+  .under img {
+    width: 30vw;
+  }
+
+  /* メイン */
+  body {
+    font-size: .7rem;
+  }
+
+  .section {
+    display: block;
+  }
+
+  .flex ul {
+    display: flex;
+    flex-direction: wrap;
+  }
+  .flex ul li img { 
+    width: 110%;
+    height: auto;
+  }
+
+  /* コンセプト */
+  .en {
+    font-size: 150%;
+  }
+  .section-text {
+    letter-spacing: .2;
+    margin-bottom: 30px;
+  }
+
+  /* 会社概要 */
+  .rinen-title {
+    font-size: 125%;
+    padding-top: 30px;
+  }
+  #map {
+    padding-top: 0;
+  }
+
+  iframe {
+    height: 180px;
+  }
+
+  /* 新着情報 */
+  .news .more-btn img {
+    width: 45%;
+  }
+  .news-html img {
+    width: 50%;
+  }
+  ul.news-list {
+    text-align: center;
+  }
+  ul li a p.article-text {
+    font-size: .9rem;
+  }
+
+
+
+
+  /* 採用 */
+  .recruit-flex {
+    display: block;
+  }
+
+
+
+
+
+
+  /* footer */
+  .footer-left ul {
+    width: 45%;
+  }
+  .footer-left ul img {
+    width: 100%;
+  }
+  .footer-right ul {
+    font-size: 5px;
+    width: 100%;
+    display: block;
+    padding: 0;
+    text-align: start;
+  }
+  .footer-right ul li {
+    width: 100%;
+    padding: 0;
+  }
+}
